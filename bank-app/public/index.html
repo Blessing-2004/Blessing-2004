@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BANK APP</title>
+    <link rel="stylesheet" href="output.css" />
+   
+
+  </head>
+  <body>
+    <div class="bg-white fixed w-full z-10 top-0 p-4">
+      <nav
+        class="hidden lg:flex md:flex-row mx-auto jusitfy-between items-center gap-[4rem]"
+      >
+        <div class="flex justify-between items-center">
+          <div class="mx-20">
+            <img src="./asset/logo copy.svg" class="" alt="" />
+          </div>
+
+          <div
+            class="flex flex-col md:flex-row gap-3 md:gap-12 items-center"
+            id="navLink"
+          >
+            <ul
+              class="flex flex-col md:flex-row gap-3 md:gap-12 text-slate-500 font-medium mx-20"
+            >
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Career</a></li>
+            </ul>
+          </div>
+          <div class="flex gap-12 items-center mx-20">
+            <button
+              id="requestBtn"
+              class="bg-gradient-to-r from-green-300 from-30% to-cyan-300 w-48 text-white rounded-3xl h-10"
+            >
+              <a href="login.html">LOGIN</a>
+            </button>
+          </div>
+        </div>
+      </nav>
+
+      <!-- mobile navbar -->
+      <nav class="md:hidden flex justify-center items-center align-middle p-8 m-9">
+        <div class="">
+          <img src="/public/asset/logo.svg" class="" alt="bank logo" />
+        </div>
+        <div class="md:hidden item-center my-5" id="menuToggle">
+          <i class="bx bx-menu" text-4
+            ><img src="/public/asset/icon-hamburger.svg" alt=""/>
+        </div>
+      </nav>
+
+      <div
+        class="hidden align-middle flex-col md:hidden gap-3 justify-center items-center toggleMenu"
+      >
+        <ul
+          class="flex flex-col justify-center items-center gap-3 p-4 m-8 text-slate-500 font-medium"
+        >
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Career</a></li>
+        </ul>
+        <div class="gap-12 item-center mx-20">
+          <button
+            id="requestBtn"
+            class="bg-gradient-to-r from-green-300 from-30% to-cyan-300 h-1rem w-32 text-white rounded-3xl h-10 my-3"
+          >
+            <a href="form.html">LOGIN</a>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="flex flex-col md:flex-row md:justify-between item-center bg-zinc-50"
+    >
+  <div class="gap-7 my-30 mx-20 mt-32">
+        <h1 class="font-arial text-5xl flex flex-col">
+          Next generation<span>digital banking</span>
+        </h1> <br> <br>
+  
+        <p class="to-slate-500 my-3 flex md:flex-col text-xl">
+          Take your financial life online.Your Easybank account
+          <span>will be a one-stop-shop for spending, saving,</span>
+          <span>budgeting, investing and much more</span>
+        </p>
+        <button
+          class="bg-gradient-to-r from-green-300 from-30% to-cyan-300 h-1rem w-48 text-white rounded-3xl h-10 my-3"
+        >
+          Request Invite
+        </button>
+      </div>
+
+      <div
+        class="overflow-x-hidden object-left-bottom z-1 md:mt-[-3rem] md:w-[40%] md:mr-[-7rem]"
+      >
+         <img src="./asset/bg-intro-desktop.svg" alt="" /> 
+        <div class="overflow-hidden mt-[-30rem]">
+         <img src="./asset/image-mockups.png" alt="" />
+        </div>
+      </div>
+    </div>
+    <div class="bg-slate-200 flex flex-col">
+      <div class="mx-3">
+        <h1 class="text-[30px] ml-[4rem] md:flex md:flex-row">
+          Why Choose <span class="ml-2">Easybank</span>
+        </h1>
+        <p class="ml-[4rem] flex flex-col">
+          we leverage open bank to turn your bank account into your financial
+          hub. <span> control your finacial like never before</span>
+        </p>
+      </div>
+
+      <div
+        class="md:flex md:flex-row gap-10 md:mx-20 md:my-10 ml-[4rem] mt-[3rem] mb-[2rem]"
+      >
+        <div class="">
+          <img src="./asset/icon-online.svg" alt="" />
+          <h1>online banking</h1>
+          <p class="flex flex-col">
+            our mordern web and modile <span>application allow you to </span>
+            <span>keep track of your finance wherever</span>
+            <span>you are in the word</span>
+          </p>
+        </div>
+
+        <div>
+          <img src="./asset/icon-budgeting.svg" alt="" />
+          <h1>simple budgeting</h1>
+          <p class="flex flex-col">
+            see exactly where your money <span> goes every month. recieve</span>
+            <span> notification when you are closed to </span>
+            <span> reach your limits.</span>
+          </p>
+        </div>
+
+        <div>
+          <img src="./asset/icon-onboarding.svg" alt="" />
+          <h1>Fast onboarding</h1>
+          <p class="flex flex-col">
+            we don't do branches. open your
+            <span>account in a minutes online and start</span>
+            <span> taking control of your finances right away.</span>
+          </p>
+        </div>
+
+        <div>
+          <img src="./asset/icon-api.svg" alt="" />
+          <h1>Open API</h1>
+          <p class="flex flex-col">
+            manage your savings, investments,
+            <span> passion and much more from one </span>
+            <span>account. Tracking your money has </span>
+            <span>never been easier.</span>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="bg-slate-100">
+      <h1 class="p-9 text-[40px] ml-[5rem] flex flex-row gap-2">
+        Latest <span>Article</span>
+      </h1>
+
+      <div class="flex md:flex-row flex-col gap-10 mt-10 ml-[5rem]">
+        <div class="rounded-xl border-solid bg-white w-50">
+          <img src="./asset/image-currency.jpg" class="" alt="" />
+          <div class="p-4">
+            <p class="text-slate-500">by claire robinson</p>
+            <h1 class="text-2xl text-black">
+              <a href="">
+                Receive money in any <br />
+                currency with no fee
+              </a>
+            </h1>
+            <p class="text-slate-500">
+              The world is getting smaller and <br />
+              we're becoming more mobile. so <br />
+              why should you forced to only <br />
+              receive money in a single.......
+            </p>
+          </div>
+        </div>
+
+        <div class="rounded-xl border-solid w-50 bg-white">
+          <img src="./asset/image-restaurant.jpg" alt="" />
+          <div class="p-4">
+            <p class="text-slate-500">by claire robinson</p>
+            <h1 class="text-2xl text-black">
+              <a href=""
+                >Receive money in any <br />
+                currency with no fee</a
+              >
+            </h1>
+            <p class="text-slate-500">
+              The world is getting smaller and <br />
+              we're becoming more mobile. so <br />
+              why should you forced to only <br />
+              receive money in a single.......
+            </p>
+          </div>
+        </div>
+
+        <div class="rounded-xl border-solid w-50 bg-white">
+          <img src="./asset/image-plane.jpg" alt="" />
+          <div class="p-4">
+            <p class="text-slate-500">by claire robinson</p>
+            <h1 class="text-2xl text-black">
+              <a href=""
+                >Receive money in any <br />
+                currency with no fee</a
+              >
+            </h1>
+            <p class="text-slate-500">
+              The world is getting smaller and <br />
+              we're becoming more mobile. so <br />
+              why should you forced to only <br />
+              receive money in a single.......
+            </p>
+          </div>
+        </div>
+
+        <div class="rounded-xl border-solid w-50 bg-white">
+          <img
+            src="./asset/image-confetti.jpg"
+            class="hover:text-white"
+            alt=""
+          />
+          <div class="p-4">
+            <p class="text-slate-500">by claire robinson</p>
+            <h1 class="text-2xl text-black">
+              <a href=""
+                >Receive money in any <br />
+                currency with no fee</a
+              >
+            </h1>
+            <p class="text-slate-500">
+              The world is getting smaller and <br />
+              we're becoming more mobile. so <br />
+              why should you forced to only <br />
+              receive money in a single.......
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="bg-gray-800">
+      <div
+        class="flex md:flex-row flex-col md:ml-20 md:mt-30 items-center justify-around"
+      >
+        <div class="mt-6">
+          <div>
+            <img src="./asset/logo copy.svg" class="" alt="" />
+          </div>
+          <div class="flex gap-2 mt-6 justify-around">
+            <a href="#"
+              ><img src="./asset/icon-facebook.svg" alt="facebook"
+            /></a>
+            <a href="#"><img src="./asset/icon-youtube.svg" alt="youtube" /></a>
+            <a href="#"><img src="./asset/icon-twitter.svg" alt="twitter" /></a>
+            <a href="#"
+              ><img src="./asset/icon-pinterest.svg" alt="pinterest"
+            /></a>
+            <a href="#"
+              ><img src="./asset/icon-instagram.svg" alt="instagram"
+            /></a>
+          </div>
+        </div>
+
+        <div
+          class="flex md:flex-row flex-col text-white md:justify-between mt-6"
+        >
+          <div class="">
+            <ul
+              class="flex md:flex-row flex-col md:gap-5 justify-between items-center"
+            >
+              <span>
+                <li>About us</li>
+                <li>Contact</li>
+                <li>Blog</li>
+              </span>
+              <span>
+                <li>Career</li>
+                <li>Support</li>
+                <li>Private Policy</li>
+              </span>
+            </ul>
+          </div>
+
+          <div class="mt-6">
+            <button
+              class="bg-gradient-to-r from-green-300 from-30% to-cyan-300 h-1rem w-48 text-white rounded-3xl h-10 mx-20"
+            >
+              Request Invite
+            </button>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
